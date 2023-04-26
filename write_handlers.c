@@ -1,3 +1,4 @@
+#include "main.h"
 /************************* WRITE NUMBER *************************/
 /**
  * write_number - Prints a string
