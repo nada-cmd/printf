@@ -1,3 +1,4 @@
+
 #ifndef MAIN_H
 #define MAIN_H
 #include <stdarg.h>
@@ -16,7 +17,6 @@
 #define S_SHORT 1
 /**
  * struct fmt - Struct op
- *
  * @fmt: The format.
  * @fn: The function associated.
  */
@@ -27,7 +27,6 @@ int (*fn)(va_list, char[], int, int, int, int);
 };
 /**
  * typedef struct fmt fmt_t - Struct op
- *
  * @fmt: The format.
  * @fm_t: The function associated.
  */
